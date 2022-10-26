@@ -1,19 +1,18 @@
-
 package com.portfolio.brian.Dto;
 
 import javax.validation.constraints.NotBlank;
 
+public class dtoEducacion {
 
-public class dtoExperiencia {
     @NotBlank
     private String nombreE;
     @NotBlank
     private String descripcionE;
 
-    public dtoExperiencia() {
+    public dtoEducacion() {
     }
 
-    public dtoExperiencia(String nombreE, String descripcionE) {
+    public dtoEducacion(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }
@@ -33,7 +32,6 @@ public class dtoExperiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
     
     
 }
